@@ -1,6 +1,27 @@
+
 body {
-    background: #02015a;
     font-family: Bebas Neue;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#one {
+    
+    background: #02015a;
+    height: 100vh;
+
+}
+#two {
+    height: 100vh;
+    background: whitesmoke;
+}
+
+a{
+    color: whitesmoke;
+}
+
+h3 {
+    color: #FFF919;
 }
 
 h1 {
