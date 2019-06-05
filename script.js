@@ -4,7 +4,7 @@
 
 function clickTarget () {
     event.preventDefault;
-   document.getElementById('two').scrollIntoView(false)
+   document.getElementById('two').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 console.log(event.target);
 }
 

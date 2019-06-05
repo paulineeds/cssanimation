@@ -1,5 +1,8 @@
-
+html{
+    background: whitesmoke;
+}
 body {
+    background: whitesmoke;
     font-family: Bebas Neue;
     max-width: 100%;
     overflow-x: hidden;
@@ -7,7 +10,7 @@ body {
 
 #one {
     
-    background: #02015a;
+    background: whitesmoke;
     height: 100vh;
 
 }
@@ -21,11 +24,11 @@ a{
 }
 
 h3 {
-    color: #FFF919;
+    color: rgb(255, 109, 25);
 }
 
 h1 {
-    color: #FFF919;
+    color: rgb(255, 109, 25);
     text-align: center;
     padding-top: 20%;
     letter-spacing: 20px;
@@ -33,17 +36,17 @@ h1 {
 }
 
 @keyframes desmet {
-    from {color:  #02015a;}
-    to { color: whitesmoke;}
+    from {color: whitesmoke;}
+    to { color:  #02015a;}
 }
 
 #desmet {
     margin-left: 47%;
-    color: #02015a;
+    color: whitesmoke;
     text-align: center;
     letter-spacing: 15px;
     animation-name: desmet;
-    animation-delay: 1.8s;
+    animation-delay: 1.95s;
     animation-duration: 0.3s;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
