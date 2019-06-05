@@ -1,0 +1,34 @@
+body {
+    background: #02015a;
+    font-family: Bebas Neue;
+}
+
+h1 {
+    color: #FFF919;
+    text-align: center;
+    padding-top: 20%;
+    letter-spacing: 20px;
+    font-size: 50px;
+}
+
+#desmet {
+    color: whitesmoke;
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+@keyframes pauline {
+    0% {top: 0%; left: 0%; }
+    25% {top: 0%; left: 5%; }
+    50% {top: 0%; left: 10%; }
+    75% {top: 0%; left: 15%; }
+    100% {top: 0%; left: 20%; }
+}
+
+#example {
+    animation-name: pauline;
+    animation-duration: 2s;
+    position: relative;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
