@@ -68,12 +68,22 @@ h1 {
 
 #refer {
     background: whitesmoke;
-    color:   #02015a;
+    color:   whitesmoke;
     border: none;
     font-size: 20px;
     margin-left: 49%;
     margin-top: 230px;
     outline: none;
+    animation-name: arrow;
+    animation-delay: 2s;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes arrow {
+    from {color: whitesmoke;}
+    to { color:  #02015a;}
 }
 
 #refer:hover {
