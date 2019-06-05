@@ -11,11 +11,23 @@ h1 {
     font-size: 50px;
 }
 
+@keyframes desmet {
+    from {color:  #02015a;}
+    to { color: whitesmoke;}
+}
+
 #desmet {
-    color: whitesmoke;
+    margin-left: 47%;
+    color: #02015a;
     text-align: center;
     letter-spacing: 15px;
+    animation-name: desmet;
+    animation-delay: 1.8s;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
 }
+
 
 @keyframes pauline {
     0% {top: 0%; left: 0%; }
