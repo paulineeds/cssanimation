@@ -19,9 +19,6 @@ body {
     background: whitesmoke;
 }
 
-a{
-    color: whitesmoke;
-}
 
 h3 {
     color: rgb(255, 109, 25);
@@ -68,3 +65,18 @@ h1 {
     animation-fill-mode: forwards;
     animation-timing-function: linear;
 }
+
+#refer {
+    background: whitesmoke;
+    color:   #02015a;
+    border: none;
+    font-size: 20px;
+    margin-left: 49%;
+    margin-top: 230px;
+    outline: none;
+}
+
+#refer:hover {
+    color: rgb(255, 109, 25);
+}
+
