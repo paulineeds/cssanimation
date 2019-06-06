@@ -95,7 +95,7 @@ h1 {
 
 h3 {
     color: #02015a;
-    margin-top: 400px;
+    margin-top: 450px;
     font-size: 40px;
     margin-left: 80px;
     margin-bottom: 10px;
@@ -106,9 +106,10 @@ h3 {
 }
 
 #me {
+    margin-top: 55px;
     width: 210px;
     opacity: 0.85;
-    margin-left: 278px;
+    margin-left: 285px;
     position: absolute; 
     clip-path: polygon(35% 0, 100% 35%, 65% 100%, 0 65%);
 }
