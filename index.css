@@ -17,12 +17,10 @@ body {
 #two {
     height: 100vh;
     background: whitesmoke;
+    display: flex;
 }
 
 
-h3 {
-    color: rgb(255, 109, 25);
-}
 
 h1 {
     color: rgb(255, 109, 25);
@@ -76,11 +74,13 @@ h1 {
     margin-left: 49%;
     margin-top: 230px;
     outline: none;
+    
     animation-name: arrow;
     animation-delay: 2s;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
+    animation-timing-function: ease-in; 
+    transition: color 2s;
 }
 
 @keyframes arrow {
@@ -90,5 +90,48 @@ h1 {
 
 #refer:hover {
     color: rgb(255, 109, 25);
+  }
+
+
+h3 {
+    color: #02015a;
+    margin-top: 400px;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+#gone{
+    color: whitesmoke;
+}
+
+hr {
+    width: 340px;
+    float: left;
+    border-color: #02015a;
+    margin-left: 80px;
+}
+
+.about {
+    margin-left: 500px;
+   
+}
+
+h4 {
+    font-size: 30px;
+    text-align: left;
+    color: #02015a;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style: none;
+    font-family: brandon grotesque;
+    color: #02015a;
+}
+
+ul {
+    padding-left: 0px;
+    
 }
 
