@@ -105,6 +105,15 @@ h3 {
     color: whitesmoke;
 }
 
+#me {
+    width: 210px;
+    opacity: 0.85;
+    margin-left: 278px;
+    position: absolute; 
+    clip-path: polygon(35% 0, 100% 35%, 65% 100%, 0 65%);
+}
+
+
 hr {
     width: 340px;
     float: left;
@@ -114,7 +123,13 @@ hr {
 
 .about {
     margin-left: 500px;
+    margin-top: 100px;
    
+}
+
+.interest {
+    margin-top: 100px;
+    margin-left: 500px;
 }
 
 h4 {
@@ -122,6 +137,7 @@ h4 {
     text-align: left;
     color: #02015a;
     margin-bottom: 10px;
+    letter-spacing: 5px;
 }
 
 li {
