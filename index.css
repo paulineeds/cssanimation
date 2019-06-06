@@ -51,11 +51,13 @@ h1 {
 
 
 @keyframes pauline {
-    0% {top: 0%; left: 0%; }
+    /* 0% {top: 0%; left: 0%; }
     25% {top: 0%; left: 5%; }
     50% {top: 0%; left: 10%; }
     75% {top: 0%; left: 15%; }
-    100% {top: 0%; left: 20%; }
+    100% {top: 0%; left: 20%; } */
+    from {left: 0%;}
+    to {left: 20%;}
 }
 
 #example {
@@ -63,7 +65,7 @@ h1 {
     animation-duration: 2s;
     position: relative;
     animation-fill-mode: forwards;
-    animation-timing-function: linear;
+    animation-timing-function: ease-out;
 }
 
 #refer {
