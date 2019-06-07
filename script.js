@@ -1,11 +1,9 @@
-
-    const target = document.getElementById('refer');
+const target = document.getElementById('refer');
     target.addEventListener("click", clickTarget);
 
 function clickTarget () {
     event.preventDefault;
-   document.getElementById('two').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
-console.log(event.target);
+document.getElementById('two').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 }
 
 

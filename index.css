@@ -1,6 +1,7 @@
 html{
     background: whitesmoke;
 }
+
 body {
     background: whitesmoke;
     font-family: Bebas Neue;
@@ -9,18 +10,15 @@ body {
 }
 
 #one {
-    
     background: whitesmoke;
     height: 100vh;
-
 }
+
 #two {
     height: 100vh;
     background: whitesmoke;
     display: flex;
 }
-
-
 
 h1 {
     color: rgb(255, 109, 25);
@@ -47,13 +45,7 @@ h1 {
     animation-fill-mode: forwards;
 }
 
-
 @keyframes pauline {
-    /* 0% {top: 0%; left: 0%; }
-    25% {top: 0%; left: 5%; }
-    50% {top: 0%; left: 10%; }
-    75% {top: 0%; left: 15%; }
-    100% {top: 0%; left: 20%; } */
     from {left: 0%;}
     to {left: 20%;}
 }
@@ -92,7 +84,6 @@ h1 {
     color: rgb(255, 109, 25);
   }
 
-
 h3 {
     color: #02015a;
     margin-top: 450px;
@@ -111,7 +102,6 @@ h3 {
     display: flex column;
     flex: wrap;
     width: 200px;
-    
 }
 
 .een {
@@ -189,7 +179,6 @@ hr {
 .about {
     margin-left: 400px;
     margin-top: 100px;
-   
 }
 
 .interest {
@@ -213,6 +202,5 @@ li {
 
 ul {
     padding-left: 0px;
-    
 }
 
