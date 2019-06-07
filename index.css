@@ -112,23 +112,57 @@ h3 {
 
 .een {
     float: left;
-    margin-top: -5px;
+    margin-top: -7px;
+    transition-property: margin-top;
+    transition-duration: 0.3s;
 }
+
+.een:hover {
+    margin-top: 7px;
+}
+
 .twee {
     float: left;
-    margin-top: 5px;
+    margin-top: 7px;
+    transition-property: margin-top;
+    transition-duration: 0.3s;
 }
+
+.twee:hover {
+    margin-top: -7px;
+}
+
 .drie {
     float: left;
-    margin-top: -5px;
+    margin-top: -7px;
+    transition-property: margin-top;
+    transition-duration: 0.3s;
 }
+
+.drie:hover {
+    margin-top: 7px;
+}
+
 .vier {
     float: left;
-    margin-top: 5px;
+    margin-top: 7px;
+    transition-property: margin-top;
+    transition-duration: 0.3s;
 }
+
+.vier:hover {
+    margin-top: -7px;
+}
+
 .vijf {
     float: left;
-    margin-top: -5px;
+    margin-top: -7px;
+    transition-property: margin-top;
+    transition-duration: 0.3s;
+}
+
+.vijf:hover {
+    margin-top: 7px;
 }
 
 img{
