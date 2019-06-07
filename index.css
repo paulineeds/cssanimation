@@ -106,7 +106,7 @@ h3 {
 }
 
 #photo {
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: 55px;
     display: flex column;
     flex: wrap;
@@ -116,6 +116,8 @@ h3 {
 
 .een {
     float: left;
+    margin-left: -5px;
+    padding-bottom: 5px;
     transition-property: margin-left;
     transition-duration: 0.3s;
 }
@@ -126,6 +128,8 @@ h3 {
 
 .twee {
     float: left;
+    margin-left: 5px;
+    padding-bottom: 5px;
     transition-property: margin-left;
     transition-duration: 0.3s;
 }
@@ -136,6 +140,8 @@ h3 {
 
 .drie {
     float: left;
+    margin-left: -5px;
+    padding-bottom: 5px;
     transition-property: margin-left;
     transition-duration: 0.3s;
 }
@@ -146,6 +152,8 @@ h3 {
 
 .vier {
     float: left;
+    margin-left: 5px;
+    padding-bottom: 5px;
     transition-property: margin-left;
     transition-duration: 0.3s;
 }
@@ -156,6 +164,8 @@ h3 {
 
 .vijf {
     float: left;
+    margin-left: -5px;
+    padding-bottom: 5px;
     transition-property: margin-left;
     transition-duration: 0.3s;
 }
@@ -177,14 +187,14 @@ hr {
 }
 
 .about {
-    margin-left: 500px;
+    margin-left: 400px;
     margin-top: 100px;
    
 }
 
 .interest {
     margin-top: 100px;
-    margin-left: 500px;
+    margin-left: 400px;
 }
 
 h4 {
